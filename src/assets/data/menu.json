@@ -1,0 +1,18 @@
+[
+
+    {
+        "ruta":"/productos",
+        "nombre":"PRODUCTOS",
+        "icono":"bag-check",
+        "color":"secondary",
+        "colorIcon":"dark"
+    },
+    {
+        "ruta":"/vender",
+        "nombre":"HISTORIAL",
+        "icono":"document-attach",
+        "color":"success",
+        "colorIcon":"warning"
+    }
+
+]

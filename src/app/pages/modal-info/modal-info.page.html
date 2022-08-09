@@ -1,0 +1,43 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>{{titulo}}</ion-title>
+    <ion-button (click)="cerrarModal()" color="danger" slot="end">
+      <ion-icon name="close-sharp"></ion-icon>
+      Cancelar
+    </ion-button>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding animate__animated animate__pulse">
+
+
+  <form id="form" #formulario="ngForm" (ngSubmit)="guardarModal()">
+    <!-- <ion-item>
+      <ion-label position="stacked" for="myfile">Selecciona una imagen:</ion-label>
+      <ion-input type="file" id="img" name="img" required [(ngModel)]="img">
+      </ion-input>
+    </ion-item>-->
+    <ion-item>
+      <ion-label position="stacked">Descripción:</ion-label>
+      <ion-textarea placeholder="Describcion del procucto" id="descripcion" name="descripcion" required
+        [(ngModel)]="descripcion"></ion-textarea>
+    </ion-item>
+    <ion-item>
+      <ion-label position="stacked">Precio:</ion-label>
+      <ion-input type="number" placeholder="Agrege un precio" id="precio" name="precio" required [(ngModel)]="precio">
+      </ion-input>
+    </ion-item>
+
+
+    <ion-item>
+      <ion-button type="submit" expand="block" shape="round" color="warning" size="default"
+        [disabled]="formulario.invalid">
+        <ion-icon slot="start" name="wallet-sharp"></ion-icon>
+        Guardar
+      </ion-button>
+    </ion-item>
+  </form>
+
+
+
+</ion-content>

@@ -1,0 +1,55 @@
+<ion-header>
+  <ion-toolbar color="warning">
+    <ion-title> PAGINA PRINCIPAL</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <img style="height: auto; width: 1000px;" src="../../../assets/Img/portada.jfif" alt="Imagen no cargada">
+  <ion-list-header>
+    <ion-label>
+      <p>OPCIONES :</p>
+    </ion-label>
+  </ion-list-header>
+
+  <ion-grid fixed class="fondo">
+    <ion-row>
+      <ion-col class="center" size="6" *ngFor="let men of menu | async; index as i">
+        <ion-button class="estilos" [routerLink]="men.ruta" [color]="men.color">
+          <ion-icon slot="start" [name]="men.icono" [color]="men.colorIcon"></ion-icon>{{men.nombre}}
+        </ion-button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+  <ion-list-header>
+    <ion-label>
+      <p>MAS NOVEDADES :</p>
+    </ion-label>
+  </ion-list-header>
+
+  <ion-card *ngFor="let n of  novedades| async">
+    <img [src]="n.imagen" alt="">
+    <ion-item>
+
+      <ion-card-title>{{n.titulo}}</ion-card-title>
+      <ion-icon name="arrow-forward-outline" slot="end"></ion-icon>
+    </ion-item>
+
+    <ion-card-content>{{n.contenido}}</ion-card-content>
+
+    <ion-item color="#ccc">
+      <ion-button fill="clear">
+        <ion-icon name="thumbs-up-outline"></ion-icon>
+      </ion-button>
+      <ion-button fill="clear">
+        <ion-icon name="copy-outline"></ion-icon>
+      </ion-button>
+      <ion-button fill="clear">
+        <ion-icon name="share-social-outline"></ion-icon>
+      </ion-button>
+    </ion-item>
+  </ion-card>
+
+
+</ion-content>

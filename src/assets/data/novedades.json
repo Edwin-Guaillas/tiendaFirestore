@@ -1,0 +1,26 @@
+[
+        {
+        "id":"",
+        "imagen":"https://www.tventas.com/img/cms/catalogo/Cata%CC%81logo%2029%20TVentas.jpg",
+        "titulo":"Descubre las promociones en nuestro Catálogo Semanal Julio 2022",
+        "contenido":"Pide tus productos directo a tu hogar! Aprovecha las promociones de cocina, fitness,  hogar,  salud, belleza, limpieza, tecnología y mucho más. Además productos para el hogar, implementos de cocina y más." 
+    },
+    {
+        "id":"",
+        "imagen":"https://www.eluniverso.com/resizer/u1wDvm15gt10Mso7Ruk8aLDHcqo=/1378x670/smart/filters:quality(70)/cloudfront-us-east-1.images.arcpublishing.com/eluniverso/N6O3V2C245HCRGNPGO7GEXMJSQ.jpg",
+        "titulo":"Rebajas y promociones, las estrategias del comercio guayaquileño para impulsar la recuperación post paro, tras pérdidas de $ 40 millones",
+        "contenido":"Los malls y centros comerciales aprovechan las fiestas julianas para incentivar el consumo y recuperar la ventas perdidas durante junio pasado" 
+    },
+    {
+        "id":"",
+        "imagen":"https://www.eluniverso.com/resizer/qldpa5IbSAiLXJkBtrmvHrBNcis=/480x270/smart/filters:quality(70)/cloudfront-us-east-1.images.arcpublishing.com/eluniverso/FKI75K566FFMJJPKKAELLNCLH4.jpg",
+        "titulo":"Más de 500 aspirantes buscaron ingresar como pasantes a Nestlé Ecuador",
+        "contenido":"La empresa seleccionó a 15 finalistas, de los que solo 6 ingresarán al departamento de Nutrición Infantil como pasantes por los próximos seis meses"  
+    },
+    {
+        "id":"",
+        "imagen":"https://www.eluniverso.com/resizer/Loq4rUX_IaNM6ZjH_OrBqV6qF4c=/480x270/smart/filters:quality(70)/cloudfront-us-east-1.images.arcpublishing.com/eluniverso/GNJZPHU6NRHZBN3YMDYZ3BUUL4.jpg",
+        "titulo":"IVA del 0 % para todos los turistas, uno de los seis pedidos que hace sector turístico al presidente Guillermo Lasso",
+        "contenido":"Cámaras de Turismo, hoteles y restaurantes también buscan diálogo para levantar al sector afectado por pandemia, paros y brote delincuencial." 
+    }
+]
